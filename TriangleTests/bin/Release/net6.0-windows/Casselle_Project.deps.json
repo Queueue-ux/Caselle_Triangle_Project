@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Casselle_Project/1.0.0": {
+        "runtime": {
+          "Casselle_Project.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Casselle_Project/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

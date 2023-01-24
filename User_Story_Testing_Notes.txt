@@ -1,0 +1,38 @@
+Scenario 1:
+
+	- reading user input from TextBox with Binding wasn't working
+		- switched to calling the TextBox directly from code
+
+Scenario 2:
+
+	- output not generated instantly
+		- added hook to backend function to all input fields
+
+Scenario 3:
+
+	- crashed on first input
+		- changed to return when an empty input is found
+
+	- produced error output before all inputs were entered
+		- swapped order of error output and checking for empty inputs
+
+Scenario 4:
+
+	- calculation for Isosceles triangle not working
+		- accidentally checked a == b twice
+	- equilateral not working
+		- Isosceles was checked first overriding equilater, made isoceles validation more specific by explicitly checking for 2 equal sides
+	- can't produce a right isosceles triangle
+		- now allow double input
+	- double input not catching right isosceles
+		- now round input
+
+Scenario 5:
+	
+	- text message getting cut off
+		- widened output field for frontend
+
+Scenario 6:
+
+	- return value for Math.Acos was radian
+		- multiplied by 180/Math.PI to convert to degrees
